@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+}
+section .profail-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    background-color:white;
+    width: 100%;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgb(0 0 0 1);
+    border-radius: 20px;
+}
+section .pic img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    border: 3px solid rgb(56, 56, 242);
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+section .text h2{
+    font-size: 20px;
+    text-align: center;
+}
+section .text span{
+    color: crimson;
+}
+section .text h3{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: solid;
+}
+section .media-button {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold; /* There is no '15px' weight, you can use 'bold' or a valid weight */
+    margin: 0 8px; /* This adds spacing on both sides of the icon */
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 50%;
+    gap:15px;
+}
+section .media-button .a:hover{
+    background: rgb(240, 106, 88);
+    position:relative;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 1.0s ease;
+    margin: 0 5px;
+    padding: 2px 6px;
+    
+}
+section .media-button .b:hover{
+    background: rgb(28, 204, 236);
+    position:relative;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 1.0s ease;
+    margin: 0 5px;
+    padding: 2px 6px;
+}
+section .media-button .c:hover{
+    background: rgb(248, 2, 142);
+    border-radius: 50%;
+    font-size: 20px;
+    position:relative;
+    transition: 1.0s ease;
+    margin: 0 5px;
+    padding: 2px 6px;
+}
+section .media-button .d:hover{
+    background: rgb(239, 24, 45);
+    position:relative;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: 1.0s ease; 
+    margin: 0 5px;
+    padding: 2px 6px;
+}
+section .button{
+    border:0px solid;
+    font-size: 15px;
+    border-width: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(28, 110, 244);
+    margin: 0 10px;
+    padding: 8px 24px;
+}
+section .button .text{
+    color: white;
+    text-decoration: none;
+}
+section .button:hover{
+    color: rgb(243, 255, 8);
+    transform: 0.2s ease;
+}
+
+
