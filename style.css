@@ -20,6 +20,14 @@ section .profail-card{
     padding: 25px;
     box-shadow: 0 5px 10px rgb(0 0 0 1);
     border-radius: 20px;
+    position: relative;
+}
+section .profail-card::before{
+    content: "";
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(9, 91, 233);
 }
 section .pic img{
     height: 150px;
@@ -30,7 +38,7 @@ section .pic img{
     text-align: center;
     position: relative;
     background-color: black;
-    border: 3px solid rgb(56, 56, 242);
+    border: 3px solid rgb(0, 233, 254);
     object-fit: cover;
     margin-bottom: 30px;
 }
